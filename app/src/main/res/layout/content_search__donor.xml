@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.Search_Donor"
+    tools:showIn="@layout/activity_search__donor"
+    android:background="@drawable/color_gradient"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <TextView
+            android:textSize="19dp"
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group: "/>
+
+        <Spinner
+            android:layout_alignParentRight="true"
+            android:id="@+id/spinner"
+            android:layout_toRightOf="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Spinner>
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_below="@+id/spinner"
+            android:id="@+id/btn"
+            android:background="@drawable/button_background"
+            android:layout_centerHorizontal="true"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:textColor="@color/gold_color"
+            android:text="Submit"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

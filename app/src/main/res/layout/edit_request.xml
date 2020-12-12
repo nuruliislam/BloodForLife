@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="User name"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edtUserContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="User Contact"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Patient Name"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editPatientContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Patient Contact"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editHospital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Hospital"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+
+
+
+</LinearLayout>

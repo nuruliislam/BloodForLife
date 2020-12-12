@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.Admin_Activity"
+    android:background="@drawable/photo_2"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAdminManageDonor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Manage Donor"/>
+        <Button
+            android:id="@+id/btnAdminAddAdmin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Add New Admin"/>
+        <Button
+            android:id="@+id/btnAdminAddHospital"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Add New Hospital"/>
+        <Button
+            android:id="@+id/btnAdminManageReq"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Manage Request"/>
+        <Button
+        android:id="@+id/btnAdminManageMember"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+        android:text="Manage Member"/>
+
+        <Button
+            android:id="@+id/btnAdminManageHospital"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Manage Hospital"/>
+
+        <Button
+            android:id="@+id/btnAdminDonationHistory"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Donation History"/>
+
+        <Button
+            android:id="@+id/btnAdminManageCampaign"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Manage Campaign"/>
+
+        <Button
+            android:id="@+id/btnAdminLogout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:textColor="#fff"
+            android:layout_marginBottom="4.0dip"
+            android:text="Log Out"/>
+    </LinearLayout>
+
+</RelativeLayout>

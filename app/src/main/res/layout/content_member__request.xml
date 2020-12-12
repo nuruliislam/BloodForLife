@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/content_members"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context=".Activity.Member_Request"
+    android:background="@drawable/photo_2"
+tools:showIn="@layout/activity_member__request">
+
+<android.support.v7.widget.RecyclerView
+
+    android:layout_marginTop="2dp"
+    android:id="@+id/recyclerview_memmer_request"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+</android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/requestTextview"
+        android:textSize="20dp"
+        android:textColor="@color/gold_color"
+        android:layout_centerVertical="true"
+        android:text="No Data is Available"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+
+
+

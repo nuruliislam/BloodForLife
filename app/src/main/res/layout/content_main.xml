@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.MainActivity"
+    android:background="@drawable/photo_2"
+    tools:showIn="@layout/activity_main">
+
+   <LinearLayout
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <Button
+           android:background="@drawable/button_background"
+           android:textColor="#fff"
+           android:layout_marginBottom="4.0dip"
+           android:id="@+id/btnUser"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:text="General User"/>
+       <Button
+           android:background="@drawable/button_background"
+           android:textColor="#fff"
+           android:layout_marginBottom="4.0dip"
+           android:id="@+id/btnDonor"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:text="Donor"/>
+       <Button
+           android:background="@drawable/button_background"
+           android:textColor="#fff"
+           android:layout_marginBottom="4.0dip"
+           android:id="@+id/btnMember"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:text="Member"/>
+       <Button
+           android:background="@drawable/button_background"
+           android:textColor="#fff"
+           android:layout_marginBottom="4.0dip"
+           android:id="@+id/btnHospital"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:text="Hospital"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:id="@+id/layoutAdmin"
+       android:layout_alignParentBottom="true"
+
+       android:layout_width="match_parent"
+       android:layout_height="40dp">
+   </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.General_User"
+    android:background="@drawable/photo_2"
+    tools:showIn="@layout/activity_general__user">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnUserMember"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Be a Member"
+            android:background="@drawable/button_background"
+            android:textColor="@color/gold_color"
+            android:layout_marginBottom="4.0dip"/>
+        <Button
+            android:id="@+id/btnUserDonor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Be a Donor"
+            android:background="@drawable/button_background"
+            android:textColor="@color/gold_color"
+            android:layout_marginBottom="4.0dip"/>
+        <Button
+            android:id="@+id/btnUserBloodReq"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Blood Requset"
+            android:background="@drawable/button_background"
+            android:textColor="@color/gold_color"
+            android:layout_marginBottom="4.0dip"/>
+        <Button
+            android:id="@+id/btnUserViewCamp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="View Campaign"
+            android:background="@drawable/button_background"
+            android:textColor="@color/gold_color"
+            android:layout_marginBottom="4.0dip"/>
+    </LinearLayout>
+
+</RelativeLayout>

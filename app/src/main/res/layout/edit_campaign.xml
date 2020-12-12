@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edtOrganizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Organizer"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edtContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Contact"
+        android:inputType="number"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edtPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Place"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/edtSponsor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:hint="Sponsor"
+        android:inputType="text"
+        android:textColor="@android:color/black"/>
+
+
+
+
+</LinearLayout>
